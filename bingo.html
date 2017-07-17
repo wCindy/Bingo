@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bingo</title>
+	<link rel="icon" type="image/png" href=".\star.png">
+	<link rel="stylesheet" type="text/css" href=".\bingo.css">
+</head>
+<body>
+<fieldset>
+	<div id="goal">
+		<p>Goal:
+			<button id="line" onclick="goal(id);">Single Line</button>
+			<button id="full" onclick="goal(id);">Full Card</button> 
+		</p>
+	</div>
+	<table id="card">
+		<tr>
+			<th>B</th>
+			<th>I</th>
+			<th>N</th>
+			<th>G</th>
+			<th>O</th>
+		</tr>
+		<tr>
+			<td id="B1" onclick="marker(id);"></td>
+			<td id="I1" onclick="marker(id);"></td>
+			<td id="N1" onclick="marker(id);"></td>
+			<td id="G1" onclick="marker(id);"></td>
+			<td id="O1" onclick="marker(id);"></td>
+		</tr>
+		<tr>
+			<td id="B2" onclick="marker(id);"></td>
+			<td id="I2" onclick="marker(id);"></td>
+			<td id="N2" onclick="marker(id);"></td>
+			<td id="G2" onclick="marker(id);"></td>
+			<td id="O2" onclick="marker(id);"></td>
+		</tr>
+		<tr>
+			<td id="B3" onclick="marker(id);"></td>
+			<td id="I3" onclick="marker(id);"></td>
+			<td id="N3" onclick="marker(id);">FREE<br>SPACE</td>
+			<td id="G3" onclick="marker(id);"></td>
+			<td id="O3" onclick="marker(id);"></td>
+		</tr>
+		<tr>
+			<td id="B4" onclick="marker(id);"></td>
+			<td id="I4" onclick="marker(id);"></td>
+			<td id="N4" onclick="marker(id);"></td>
+			<td id="G4" onclick="marker(id);"></td>
+			<td id="O4" onclick="marker(id);"></td>
+		</tr>
+		<tr>
+			<td id="B5" onclick="marker(id);"></td>
+			<td id="I5" onclick="marker(id);"></td>
+			<td id="N5" onclick="marker(id);"></td>
+			<td id="G5" onclick="marker(id);"></td>
+			<td id="O5" onclick="marker(id);"></td>
+		</tr>
+	</table>
+	<div id="callGoesHere">
+		<!-- call goes here -->
+	</div>
+	<div id="buttons">
+		<button onclick="caller(id);">Call</button>
+		<button onclick="winOrLose()">BINGO</button>
+	</div>
+</fieldset>
+<script src="./bingo.js"></script>
+</body>
+</html>

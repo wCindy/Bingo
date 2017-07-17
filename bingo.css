@@ -1,0 +1,77 @@
+body {
+	text-align: center;
+	background-color: #008080;
+	font-family: "Century Gothic", sans-serif;
+}
+table{
+	margin: 1em auto;
+	width: 500px;
+	height: 500px;
+	text-align: center;
+	font-size: large;
+	padding: 10px;
+	border-collapse: collapse;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	background-color: #EFEFEF;
+}
+
+th{
+	padding: 10px;
+	width: 20%;
+	border-collapse: collapse;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	font-size: x-large;
+}
+
+td{
+	padding: 30px;
+	width: 20%;
+	border-collapse: collapse;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+fieldset {
+	background-color: #33CCCC;
+	border-color: transparent;
+}
+
+button{
+	font-family: "Century Gothic", sans-serif;
+	border-radius: 10px;
+	background-color: #F79124;
+	padding: 5px;
+	font-size: medium;
+	border-color: #F79124;
+}
+
+button:hover{
+	background-color: #D78124;
+}
+
+button:active {
+	background-color: #D78124;
+	border-color: #D78124;
+}
+
+#goal{
+	font-size: large;
+}
+
+#N3{
+	font-size: medium;
+}
+
+#callGoesHere{
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+#congrats{
+	margin-top: 140px;
+}
